@@ -139,7 +139,7 @@ export default {
           ]
         },
         {
-          img: './assets/images/procedures/pr1.jpg',
+          img: './assets/images/procedures/pr2.jpg',
           title: 'Коррекция фигуры',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -149,7 +149,7 @@ export default {
           ]
         },
         {
-          img: '@/assets/images/procedures/pr1.jpg',
+          img: '@/assets/images/procedures/pr3.jpg',
           title: 'Удаление волос лазером',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -159,8 +159,8 @@ export default {
           ]
         },
         {
-          img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Уколыкрасоты',
+          img: '@/assets/images/procedures/pr4.jpg',
+          title: 'Уколы красоты',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
             'Ксантелазмы век',
@@ -169,8 +169,8 @@ export default {
           ]
         },
         {
-          img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
+          img: '@/assets/images/procedures/pr5.jpg',
+          title: 'Процедуры косметологии',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
             'Ксантелазмы век',
@@ -179,38 +179,8 @@ export default {
           ]
         },
         {
-          img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
-          list: [
-            'Почему стоит удалить родинку в Dr Beauty',
-            'Ксантелазмы век',
-            'Удаление кондилом в ротовой полости',
-            'Удаление бородавок',
-          ]
-        },
-        {
-          img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
-          list: [
-            'Почему стоит удалить родинку в Dr Beauty',
-            'Ксантелазмы век',
-            'Удаление кондилом в ротовой полости',
-            'Удаление бородавок',
-          ]
-        },
-        {
-          img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
-          list: [
-            'Почему стоит удалить родинку в Dr Beauty',
-            'Ксантелазмы век',
-            'Удаление кондилом в ротовой полости',
-            'Удаление бородавок',
-          ]
-        },
-        {
-          img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
+          img: '@/assets/images/procedures/pr6.jpg',
+          title: 'Проффесиональный массаж',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
             'Ксантелазмы век',
