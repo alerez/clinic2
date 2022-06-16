@@ -13,7 +13,8 @@ const store = useStore();
     <div class="main__container">
       <div class="main__body">
         <Path/>
-        
+
+
         <Blog/>
       </div>
     </div>

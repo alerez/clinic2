@@ -23,7 +23,7 @@ const store = useStore();
             v-for="article in this.dataMass"
             :key="article.title"
           >
-            <div class="article__image"><img :src="article.img" alt=""></div>
+            <div class="article__image"><img src="@/assets/images/articles/1.jpg" alt=""></div>
 
             <div class="article__body">
               <div class="article__title">{{ article.title }}</div>
@@ -44,8 +44,9 @@ const store = useStore();
 export default {
   data () {
     return {
-      dataMass: [{
-        img: '../../src/assets/images/articles/prev-ar-1.png',
+      dataMass: [
+        {
+        img: '../../src/assets/images/articles/1.jpg',
         title: 'Название статьи',
         date: '19.05.2022',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
