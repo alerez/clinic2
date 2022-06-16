@@ -17,7 +17,7 @@
             v-for="article in this.dataMass"
             :key="article.title"
           >
-            <div class="article__image"><img src="@/assets/images/articles/1.jpg" alt=""></div>
+            <div class="article__image"><img :src="article.img" alt=""></div>
 
             <div class="article__body">
               <div class="article__title">{{ article.title }}</div>
@@ -47,56 +47,56 @@ export default {
         path: '/ru/blog/article/1'
       },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '../../src/assets/images/articles/2.jpg',
           title: 'Стерилизация в клинике Dr Beauty',
           date: '19.05.2022',
           description: 'Для многих успешный результат лечения зависит от правильного выбора клиники. Эстетика и красота — очень важны в современной действительности, поэтому так важно выбрать правильное место ...',
           path: '/ru/blog/article/2'
         },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '../../src/assets/images/articles/3.jpg',
           title: 'Удаление новообразований лазером СО2',
           date: '19.05.2022',
           description: 'КАКИЕ ЖЕ НОВООБРАЗОВАНИЯ МОЖНО УДАЛИТЬ С ПОМОЩЬЮ ЛАЗЕРА СО2? Родинки Папилломы Кондиломы Бородавки Фибромы  ...',
           path: '/ru/blog/article/3'
         },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '@/assets/images/articles/4.jpg',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
           path: '/ru/blog/article/4'
         },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '@/assets/images/articles/5.jpg',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
           path: '/ru/blog/article/5'
         },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '@/assets/images/articles/6.jpg',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
           path: '/ru/blog/article/6'
         },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '@/assets/images/articles/1.jpg',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
           path: '/ru/blog/article/7'
         },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '@/assets/images/articles/1.jpg',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
           path: '/ru/blog/article/8'
         },
         {
-          img: '../../src/assets/images/articles/prev-ar-1.png',
+          img: '@/assets/images/articles/1.jpg',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
