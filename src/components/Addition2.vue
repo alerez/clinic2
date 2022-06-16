@@ -13,7 +13,7 @@ const props = defineProps(['data']);
           <div class="addition__button button"  v-if="data.button.show">{{ data.button.text }}</div>
         </div>
 
-        <div class="addition__image"><img src="../assets/images/addition/ad-2.jpg" alt=""></div>
+        <div class="addition__image"><img src="../../src/assets/images/addition/ad-2.jpg" alt=""></div>
       </div>
     </div>
   </section>
