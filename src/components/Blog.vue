@@ -1,9 +1,3 @@
-<script setup>
-import { useStore } from '@/stores';
-
-const store = useStore();
-</script>
-
 
 <template>
   <section class="main__blog blog">
