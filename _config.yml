@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+script:
+  - npm install
+  - vite --host
