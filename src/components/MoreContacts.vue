@@ -25,11 +25,12 @@ const store = useStore();
           </div>
 
           <div class="more-contacts__socials">
-            <a
-              href=""
-              v-for="social in store.socials"
-              :key="social.title"
-            ><img :src="social.path" alt=""></a>
+            <div class="contacts__socials">
+              <a href="https://www.facebook.com/dr.beauty.bialik"><img src="@/assets/images/header/icons/facebook.svg" alt=""></a>
+              <a href="https://www.instagram.com/_dr__beauty/"><img src="@/assets/images/header/icons/instagram.svg" alt=""></a>
+              <a href="https://www.tiktok.com/@drbeautyclinic?_d=secCgYIASAHKAESMgowfO594KVrDG0C83evIXLxP4sGCNwcvwJyEm%2FswRC%2BPpiQ8ilEw5vTtl0qmXmu5FPnGgA%3D&checksum=c531e1e09eb3c0ea2748eadee30ec33cab0bc260d00d529834371de87dcacc85&language=ru&preview_pb=0&sec_user_id=MS4wLjABAAAAQxk-Bbksxv8F3xA7riBs_i2jGBa-muToXyq-GkezQfgMelPpncJNAXW0t1-cDsgi&share_app_id=1233&share_item_id=6984394150594612481&share_link_id=7F333AE2-BE23-456C-A3B9-9980E2C56291&source=h5_m&timestamp=1629382274&tt_from=whatsapp&u_code=dhg0jegh10b1k0&user_id=6940301651899794433&utm_campaign=client_share&utm_medium=ios&utm_source=whatsapp&_r=1"><img src="@/assets/images/header/icons/tiktok.svg" alt=""></a>
+              <a href="https://www.youtube.com/channel/UCEYd24fNcboNA4k7TUC1dXw"><img src="@/assets/images/header/icons/youtube.svg" alt=""></a>
+            </div>
           </div>
         </div>
 
@@ -130,7 +131,7 @@ const store = useStore();
   &__subtitle {
     font-weight: 450;
     font-size: 24px;
-    
+
     @media(max-width: 1023.98px) { font-size: 18px; }
   }
 }
