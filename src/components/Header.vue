@@ -32,14 +32,14 @@
               href=""
               v-for="social in this.socials"
               :key="social.title"
-            ><img :src="require(social.path)" alt=""></a>
+            ><img :src="social.path" alt=""></a>
           </div>
         </div>
 
         <nav class="header__nav">
           <router-link
             class="header__link"
-            v-for="links in store.navLinks"
+            v-for="links in this.navLinks"
             :key="links.title"
             :to="links.path"
           >{{ links.title }}</router-link>
