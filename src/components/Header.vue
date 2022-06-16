@@ -55,19 +55,19 @@ export default {
     return {
       socials: [
         {
-          path: '../../src/assets/images/header/icons/facebook.svg',
+          path: './../assets/images/header/icons/facebook.svg',
           title: 'Facebook'
         },
         {
-          path: '../../src/assets/images/header/icons/instagram.svg',
+          path: './../assets/images/header/icons/instagram.svg',
           title: 'Instagram'
         },
         {
-          path: '../../src/assets/images/header/icons/tiktok.svg',
+          path: './../assets/images/header/icons/tiktok.svg',
           title: 'TikTok'
         },
         {
-          path: '../../src/assets/images/header/icons/youtube.svg',
+          path: './../assets/images/header/icons/youtube.svg',
           title: 'Youtube'
         },
       ],
