@@ -140,7 +140,7 @@ export default {
         },
         {
           img: './assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
+          title: 'Коррекция фигуры',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
             'Ксантелазмы век',
@@ -150,7 +150,7 @@ export default {
         },
         {
           img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
+          title: 'Удаление волос лазером',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
             'Ксантелазмы век',
@@ -160,7 +160,7 @@ export default {
         },
         {
           img: '@/assets/images/procedures/pr1.jpg',
-          title: 'Удаление новообразований',
+          title: 'Уколыкрасоты',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
             'Ксантелазмы век',

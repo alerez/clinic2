@@ -41,23 +41,23 @@ export default {
       dataMass: [
         {
         img: '../../src/assets/images/articles/1.jpg',
-        title: 'Название статьи',
+        title: 'Сургитрон',
         date: '19.05.2022',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
+        description: 'Это радиоволновой аппарат для удаления новообразований (папиллом, бородавок, родинок, прижигание эрозии шейки матки). Применяется в основном в дерматологической, гинекологической и урологической практике. Сургитрон позволяется быстро...',
         path: '/ru/blog/article/1'
       },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
-          title: 'Название статьи',
+          title: 'Стерилизация в клинике Dr Beauty',
           date: '19.05.2022',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
+          description: 'Для многих успешный результат лечения зависит от правильного выбора клиники. Эстетика и красота — очень важны в современной действительности, поэтому так важно выбрать правильное место ...',
           path: '/ru/blog/article/2'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
-          title: 'Название статьи',
+          title: 'Удаление новообразований лазером СО2',
           date: '19.05.2022',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
+          description: 'КАКИЕ ЖЕ НОВООБРАЗОВАНИЯ МОЖНО УДАЛИТЬ С ПОМОЩЬЮ ЛАЗЕРА СО2? Родинки Папилломы Кондиломы Бородавки Фибромы  ...',
           path: '/ru/blog/article/3'
         },
         {

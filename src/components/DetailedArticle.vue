@@ -10,8 +10,8 @@
             <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle}}</div>
             <div class="detailed-article__text">{{propArticle.text}}</div>
 
-          <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle}}</div>
-          <div class="detailed-article__text">{{propArticle.text}}</div>
+          <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle2}}</div>
+          <div class="detailed-article__text">{{propArticle.text2}}</div>
         </div>
 
         <div class="detailed-article__grid grid">
