@@ -17,7 +17,7 @@
             v-for="article in this.dataMass"
             :key="article.title"
           >
-            <div class="article__image"><img :src="article.img" alt=""></div>
+            <div class="article__image"><img src="@/assets/images/articles/1.jpg" alt=""></div>
 
             <div class="article__body">
               <div class="article__title">{{ article.title }}</div>
