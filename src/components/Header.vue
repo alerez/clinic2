@@ -1,9 +1,3 @@
-<script setup>
-import { useStore } from '@/stores';
-
-const store = useStore();
-</script>
-
 <template>
   <header class="header">
     <div class="header__container">
@@ -38,7 +32,7 @@ const store = useStore();
               href=""
               v-for="social in this.socials"
               :key="social.title"
-            ><img :src="social.path" alt=""></a>
+            ><img :src="require(social.path)" alt=""></a>
           </div>
         </div>
 
@@ -75,6 +69,28 @@ export default {
         {
           path: '../../src/assets/images/header/icons/youtube.svg',
           title: 'Youtube'
+        },
+      ],
+      navLinks: [
+        {
+          path: '/',
+          title: 'Главная'
+        },
+        {
+          path: '/about-us',
+          title: 'O нашей косметологии'
+        },
+        {
+          path: '/',
+          title: 'Медицинское оборудование'
+        },
+        {
+          path: '/',
+          title: 'Наши процедуры'
+        },
+        {
+          path: '/contacts',
+          title: 'Контакты клиники'
         },
       ]
     }
