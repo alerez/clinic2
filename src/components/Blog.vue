@@ -50,63 +50,63 @@ export default {
         title: 'Название статьи',
         date: '19.05.2022',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-        path: '/'
+        path: '/ru/blog/article/1'
       },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/2'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/3'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/4'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/5'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/6'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/7'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/8'
         },
         {
           img: '../../src/assets/images/articles/prev-ar-1.png',
           title: 'Название статьи',
           date: '19.05.2022',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi ut aliquip ex ea commodo consequat ...',
-          path: '/'
+          path: '/ru/blog/article/9'
         },]
     }
   }
