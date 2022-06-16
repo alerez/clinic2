@@ -28,11 +28,11 @@
           </div>
 
           <div class="header__socials">
-            <a
-              href=""
-              v-for="social in this.socials"
-              :key="social.title"
-            ><img :src="social.path" alt=""></a>
+            <a><img src="@/assets/images/header/icons/facebook.svg" alt=""></a>
+            <a><img src="@/assets/images/header/icons/instagram.svg" alt=""></a>
+            <a><img src="@/assets/images/header/icons/tiktok.svg" alt=""></a>
+            <a><img src="@/assets/images/header/icons/youtube.svg" alt=""></a>
+
           </div>
         </div>
 
