@@ -27,7 +27,7 @@ const store = useStore();
           <div class="header__lang">
             <img src="@/assets/images/header/icons/ru-Ru.svg" alt="">
 
-            <select v-model="this.linkEn" name="" id="">
+            <select name="" id="">
               <option value="ru" >Ru</option>
               <option value="he" >He</option>
             </select>
@@ -59,7 +59,6 @@ const store = useStore();
 export default {
   data () {
     return {
-      linkEn: 'ru',
       socials: [
         {
           path: '../../src/assets/images/header/icons/facebook.svg',
@@ -80,16 +79,6 @@ export default {
       ]
     }
   },
-  watch: {
-    linkEn: function () {
-      const rout = this.$route.path.split('/')
-      if(rout[1] === 'ru'){
-        this.$router.go({name: 'RUmain'})
-      }else if(rout[1] === 'he'){
-        this.$router.go({name: 'HEmain'})
-      }
-    }
-  }
 }
 </script>
 
