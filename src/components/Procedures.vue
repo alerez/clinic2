@@ -5,18 +5,32 @@
         <div class="procedures__title title">Процедуры в клинике Dr Beauty</div>
 
         <div class="procedures__tiles">
-          <div
-            class="procedures__tile tile"
-            v-for="tile in this.tiles"
-            :key="tile.title"
-          >
+<!--          <div class="procedures__tile tile"-->
+<!--            v-for="tile in this.tiles"-->
+<!--            :key="tile.title"-->
+<!--          >-->
+<!--            <div class="tile__body">-->
+<!--              <div class="tile__image"><img :src="tile.img" alt=""></div>-->
+<!--              <div class="tile__title">{{ tile.title }}</div>-->
+
+<!--              <div class="tile__list">-->
+<!--                <span-->
+<!--                  v-for="l in tile.list"-->
+<!--                  :key="l"-->
+<!--                >{{ l }}</span>-->
+<!--              </div>-->
+
+<!--              <div class="procedures__button button">Узнать больше</div>-->
+<!--            </div>-->
+<!--          </div>-->
+          <div class="procedures__tile tile">
             <div class="tile__body">
-              <div class="tile__image"><img :src="tile.img" alt=""></div>
-              <div class="tile__title">{{ tile.title }}</div>
+              <div class="tile__image"><img src="@/assets/images/procedures/pr1.jpg" alt=""></div>
+              <div class="tile__title">Удаление новообразований</div>
 
               <div class="tile__list">
                 <span
-                  v-for="l in tile.list"
+                  v-for="l in this.tiles[0].list"
                   :key="l"
                 >{{ l }}</span>
               </div>
@@ -24,6 +38,82 @@
               <div class="procedures__button button">Узнать больше</div>
             </div>
           </div>
+          <div class="procedures__tile tile">
+            <div class="tile__body">
+              <div class="tile__image"><img src="@/assets/images/procedures/pr1.jpg" alt=""></div>
+              <div class="tile__title">Удаление новообразований</div>
+
+              <div class="tile__list">
+                <span
+                  v-for="l in this.tiles[0].list"
+                  :key="l"
+                >{{ l }}</span>
+              </div>
+
+              <div class="procedures__button button">Узнать больше</div>
+            </div>
+          </div>
+          <div class="procedures__tile tile">
+            <div class="tile__body">
+              <div class="tile__image"><img src="@/assets/images/procedures/pr1.jpg" alt=""></div>
+              <div class="tile__title">Удаление новообразований</div>
+
+              <div class="tile__list">
+                <span
+                  v-for="l in this.tiles[0].list"
+                  :key="l"
+                >{{ l }}</span>
+              </div>
+
+              <div class="procedures__button button">Узнать больше</div>
+            </div>
+          </div>
+          <div class="procedures__tile tile">
+            <div class="tile__body">
+              <div class="tile__image"><img src="@/assets/images/procedures/pr1.jpg" alt=""></div>
+              <div class="tile__title">Удаление новообразований</div>
+
+              <div class="tile__list">
+                <span
+                  v-for="l in this.tiles[0].list"
+                  :key="l"
+                >{{ l }}</span>
+              </div>
+
+              <div class="procedures__button button">Узнать больше</div>
+            </div>
+          </div>
+          <div class="procedures__tile tile">
+            <div class="tile__body">
+              <div class="tile__image"><img src="@/assets/images/procedures/pr1.jpg" alt=""></div>
+              <div class="tile__title">Удаление новообразований</div>
+
+              <div class="tile__list">
+                <span
+                  v-for="l in this.tiles[0].list"
+                  :key="l"
+                >{{ l }}</span>
+              </div>
+
+              <div class="procedures__button button">Узнать больше</div>
+            </div>
+          </div>
+          <div class="procedures__tile tile">
+            <div class="tile__body">
+              <div class="tile__image"><img src="@/assets/images/procedures/pr1.jpg" alt=""></div>
+              <div class="tile__title">Удаление новообразований</div>
+
+              <div class="tile__list">
+                <span
+                  v-for="l in this.tiles[0].list"
+                  :key="l"
+                >{{ l }}</span>
+              </div>
+
+              <div class="procedures__button button">Узнать больше</div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -39,7 +129,7 @@ export default {
     return {
       tiles: [
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '../assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -49,7 +139,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: './assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -59,7 +149,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '@/assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -69,7 +159,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '@/assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -79,7 +169,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '@/assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -89,7 +179,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '@/assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -99,7 +189,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '@/assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -109,7 +199,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '@/assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',
@@ -119,7 +209,7 @@ export default {
           ]
         },
         {
-          img: '../../src/assets/images/procedures/pr-1.jpg',
+          img: '@/assets/images/procedures/pr1.jpg',
           title: 'Удаление новообразований',
           list: [
             'Почему стоит удалить родинку в Dr Beauty',

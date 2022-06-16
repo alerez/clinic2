@@ -25,19 +25,19 @@ const navLinks = [
     title: 'Главная'
   },
   {
-    path: '/about-us',
+    path: '/ru/about-us',
     title: 'O нашей косметологии'
   },
   {
-    path: '/',
+    path: '/ru/blog',
     title: 'Медицинское оборудование'
   },
   {
-    path: '/',
+    path: '/ru/blog',
     title: 'Наши процедуры'
   },
   {
-    path: '/contacts',
+    path: '/ru/contacts',
     title: 'Контакты клиники'
   },
 ];
@@ -75,7 +75,7 @@ const additions = [
 
 const tiles = [
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -85,7 +85,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -95,7 +95,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -105,7 +105,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -115,7 +115,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -125,7 +125,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -135,7 +135,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -145,7 +145,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
@@ -155,7 +155,7 @@ const tiles = [
     ]
   },
   {
-    img: '../../src/assets/images/procedures/pr-1.jpg',
+    img: '../../src/assets/images/procedures/pr1.jpg',
     title: 'Удаление новообразований',
     list: [
       'Почему стоит удалить родинку в Dr Beauty',
