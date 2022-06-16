@@ -2,6 +2,7 @@
 import Fullscreen from '@/components/Fullscreen.vue';
 import Procedures from '@/components/Procedures.vue';
 import Addition from '@/components/Addition.vue';
+import Addition2 from '@/components/Addition2.vue';
 import Registration from '@/components/Registration.vue';
 import Results from '@/components/Results.vue';
 import Benefits from '@/components/Benefits.vue';
@@ -26,13 +27,13 @@ const store = useStore();
 
         <Registration/>
 
-         <Results/>
+<!--         <Results/>-->
 
         <Benefits/>
 
-         <Reviews/>
+<!--         <Reviews/>-->
 
-        <Addition :data="store.additions[1]"/>
+        <Addition2 :data="store.additions[1]"/>
 
         <Contacts/>
       </div>

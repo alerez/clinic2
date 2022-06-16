@@ -11,13 +11,55 @@ const store = useStore();
         <div class="benefits__title title">Почему стоит выбрать Dr Beauty?</div>
         <div class="benefits__subtitle">Наши преимущества</div>
         <div class="benefits__tiles">
-          <div class="benefits__tile tile"
-            v-for="tile in this.data"
-          >
+<!--          <div class="benefits__tile tile"-->
+<!--            v-for="tile in this.data"-->
+<!--          >-->
+<!--            <div class="tile__body">-->
+<!--              <div class="tile__icon"><img :src="tile.img" alt=""></div>-->
+<!--              <div class="tile__title">{{ tile.title }}</div>-->
+<!--              <div class="tile__text">{{ tile.text }}</div>-->
+<!--            </div>-->
+<!--          </div>-->
+          <div class="benefits__tile tile">
             <div class="tile__body">
-              <div class="tile__icon"><img :src="tile.img" alt=""></div>
-              <div class="tile__title">{{ tile.title }}</div>
-              <div class="tile__text">{{ tile.text }}</div>
+              <div class="tile__icon"><img src="@/assets/images/benefits/dialog.svg" alt=""></div>
+              <div class="tile__title">Говорим на 4 языках</div>
+              <div class="tile__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
+            </div>
+          </div>
+          <div class="benefits__tile tile">
+            <div class="tile__body">
+              <div class="tile__icon"><img src="@/assets/images/benefits/reward.svg" alt=""></div>
+              <div class="tile__title">Более 10 лет опыта</div>
+              <div class="tile__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
+            </div>
+          </div>
+          <div class="benefits__tile tile">
+            <div class="tile__body">
+              <div class="tile__icon"><img src="@/assets/images/benefits/skincare.svg" alt=""></div>
+              <div class="tile__title">Более 5000 процедур для тела и лица</div>
+              <div class="tile__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
+            </div>
+          </div>
+          <div class="benefits__tile tile">
+            <div class="tile__body">
+              <div class="tile__icon"><img src="@/assets/images/benefits/costumer.svg" alt=""></div>
+              <div class="tile__title">Более 3000 довольно клиентов</div>
+              <div class="tile__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
+            </div>
+          </div>
+          <div class="benefits__tile tile">
+            <div class="tile__body">
+              <div class="tile__icon"><img src="@/assets/images/benefits/chair.svg" alt=""></div>
+              <div class="tile__title">Самое соврименное оборудование</div>
+              <div class="tile__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
+            </div>
+          </div>
+          <div class="benefits__tile tile">
+            <div class="tile__body">
+              <div class="tile__icon"><img src="@/assets/images/benefits/location.svg" alt=""></div>
+              <div class="tile__title">Клиенты по всей стране</div>
+              <div class="tile__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
             </div>
           </div>
         </div>
