@@ -1,0 +1,49 @@
+{
+  "procedures": {
+    "name": [
+      {
+        "link": "laser",
+        "name": "Лазерные процедуры",
+      },
+      {
+        "link": "body-shaping",
+        "name": "Коррекция фигуры",
+      },
+      {
+        "link": "removal-of-neoplasms",
+        "name": "Удаление новообразований",
+        "img": ""
+      },
+      {
+        "link": "beauty-injections",
+        "name": "Уколы красоты",
+        "img": ""
+      },
+      {
+        "link": "plasma-therapy",
+        "name": "Плазмотерапия",
+        "img": ""
+      },
+      {
+        "link": "massage",
+        "name": "Массаж",
+        "img": ""
+      },
+      {
+        "link": "cosmetic-procedures",
+        "name": "Косметические процедуры",
+        "img": ""
+      },
+      {
+        "link": "laser-stretch-marks-removal",
+        "name": "Удаление растяжек лазером",
+        "img": ""
+      },
+      {
+        "link": "general-information",
+        "name": "Общая информация",
+        "img": ""
+      }
+    ]
+  }
+}

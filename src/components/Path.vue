@@ -4,7 +4,7 @@
       <div class="path__body">
         <div class="path__row">
           <router-link to="/" class="path__link path__link_active">Главная</router-link>
-          <router-link to="/" class="path__link">Хлебные крошки</router-link>
+          <router-link to="/" class="path__link"><slot/></router-link>
         </div>
       </div>
     </div>

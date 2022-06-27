@@ -17,7 +17,7 @@ const store = useStore();
   <main class="main">
     <div class="main__container">
       <div class="main__body">
-        <Path/>
+        <Path>О нашей клинике</Path>
 
         <Addition :data="store.additions[2]"/>
 
@@ -28,7 +28,7 @@ const store = useStore();
         <Registration/>
 
         <Addition :data="store.additions[3]"/>
-        
+
         <Cabinets/>
 
         <Contacts/>

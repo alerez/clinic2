@@ -6,6 +6,7 @@ import vue from '@vitejs/plugin-vue'
 
 import vueI18n from '@intlify/vite-plugin-vue-i18n'
 
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -16,7 +17,7 @@ export default defineConfig({
 
       // you need to set i18n resource including paths !
       include: path.resolve(__dirname, './path/to/src/locales/**')
-    })],
+    },)],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

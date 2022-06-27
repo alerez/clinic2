@@ -5,17 +5,65 @@
         <div class="detailed-article__section">
           <div class="detailed-article__title title">{{propArticle.title}}</div>
             <div class="detailed-article__date">{{propArticle.date}}</div>
+            <div class="detailed-article__image"><img :src="propArticle.img" alt=""></div>
 
-            <div class="detailed-article__image"><img src="../../src/assets/images/articles/det-ar-1.png" alt=""></div>
             <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle}}</div>
             <div class="detailed-article__text">{{propArticle.text}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.textList">{{txt}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.listDef">— {{txt}}</div>
+            <li class="detailed-article__text" v-for="txt in propArticle.listDot">{{txt}}</li>
 
-          <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle2}}</div>
-          <div class="detailed-article__text">{{propArticle.text2}}</div>
+            <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle2}}</div>
+            <div class="detailed-article__text">{{propArticle.text2}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.textList2">{{txt}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.listDef2">— {{txt}}</div>
+            <li class="detailed-article__text" v-for="txt in propArticle.listDot2">{{txt}}</li>
+
+            <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle3}}</div>
+            <div class="detailed-article__text">{{propArticle.text3}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.textList3">{{txt}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.listDef3">— {{txt}}</div>
+            <li class="detailed-article__text" v-for="txt in propArticle.listDot3">{{txt}}</li>
+
+            <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle4}}</div>
+            <div class="detailed-article__text">{{propArticle.text4}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.textList4">{{txt}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.listDef4">— {{txt}}</div>
+            <li class="detailed-article__text" v-for="txt in propArticle.listDot4">{{txt}}</li>
+
+            <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle5}}</div>
+            <div class="detailed-article__text">{{propArticle.text5}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.textList5">{{txt}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.listDef5">— {{txt}}</div>
+            <li class="detailed-article__text" v-for="txt in propArticle.listDot5">{{txt}}</li>
+
+            <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle6}}</div>
+            <div class="detailed-article__text">{{propArticle.text6}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.textList6">{{txt}}</div>
+            <div class="detailed-article__text" v-for="txt in propArticle.listDef6">— {{txt}}</div>
+            <li class="detailed-article__text" v-for="txt in propArticle.listDot6">{{txt}}</li>
+
+          <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle7}}</div>
+          <div class="detailed-article__text">{{propArticle.text7}}</div>
+          <div class="detailed-article__text" v-for="txt in propArticle.textList7">{{txt}}</div>
+          <div class="detailed-article__text" v-for="txt in propArticle.listDef7">— {{txt}}</div>
+          <li class="detailed-article__text" v-for="txt in propArticle.listDot7">{{txt}}</li>
+
+          <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle8}}</div>
+          <div class="detailed-article__text">{{propArticle.text8}}</div>
+          <div class="detailed-article__text" v-for="txt in propArticle.textList8">{{txt}}</div>
+          <div class="detailed-article__text" v-for="txt in propArticle.listDef8">— {{txt}}</div>
+          <li class="detailed-article__text" v-for="txt in propArticle.listDot8">{{txt}}</li>
+
+          <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle9}}</div>
+          <div class="detailed-article__text">{{propArticle.text9}}</div>
+          <div class="detailed-article__text" v-for="txt in propArticle.textList9">{{txt}}</div>
+          <div class="detailed-article__text" v-for="txt in propArticle.listDef9">— {{txt}}</div>
+          <li class="detailed-article__text" v-for="txt in propArticle.listDot9">{{txt}}</li>
         </div>
 
-        <div class="detailed-article__grid grid">
-          <div class="grid__title title">Читайте так же</div>
+<!--        <div class="detailed-article__grid grid">-->
+<!--          <div class="grid__title title">Читайте так же</div>-->
 
 <!--          <div class="grid__body">-->
 <!--            <div class="detailed-article__acticle article"-->
@@ -32,7 +80,7 @@
 <!--              </div>-->
 <!--            </div>-->
 <!--          </div>-->
-        </div>
+<!--        </div>-->
       </div>
     </div>
   </section>

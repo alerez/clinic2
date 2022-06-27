@@ -13,7 +13,9 @@ const store = useStore();
   <main class="main">
     <div class="main__container">
       <div class="main__body">
-        <Path/>
+        <Path>
+          Контакты клиники
+        </Path>
 
         <MoreContacts/>
 

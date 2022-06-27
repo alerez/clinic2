@@ -80,11 +80,11 @@ export default {
           title: 'O нашей косметологии'
         },
         {
-          path: '/ru/blog',
+          path: '/ru/equipment',
           title: 'Медицинское оборудование'
         },
         {
-          path: '/ru/blog',
+          path: '/ru/procedures',
           title: 'Наши процедуры'
         },
         {

@@ -23,13 +23,28 @@ const router = createRouter({
       component: () => import('@/views/Contacts.vue')
     },
     {
-      path: '/ru/blog',
-      name: '/ru/blog',
+      path: '/ru/equipment',
+      name: '/ru/equipment',
       component: () => import('@/views/Blog.vue'),
     },
     {
-      path: '/ru/blog/article/:id',
-      name: '/ru/blog/article/:id',
+      path: '/ru/equipment/article/:id',
+      name: '/ru/equipment/article/:id',
+      component: () => import('@/views/Article.vue')
+    },
+    {
+      path: '/ru/procedures',
+      name: '/ru/procedures',
+      component: () => import('@/views/procedures.vue')
+    },
+    {
+      path: '/ru/procedures/:id',
+      name: '/ru/procedures/:id',
+      component: () => import('@/views/procedures.vue')
+    },
+    {
+      path: '/ru/procedures/article/:id',
+      name: '/ru/procedures/article/:id',
       component: () => import('@/views/Article.vue')
     },
     {
