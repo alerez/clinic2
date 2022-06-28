@@ -5,7 +5,7 @@
         <div class="detailed-article__section">
           <div class="detailed-article__title title">{{propArticle.title}}</div>
             <div class="detailed-article__date">{{propArticle.date}}</div>
-            <div class="detailed-article__image"><img :src="propArticle.img" alt=""></div>
+            <div class="detailed-article__image"><img :src="require(propArticle.img)" alt=""></div>
 
             <div class="detailed-article__subtitle subtitle">{{propArticle.subtitle}}</div>
             <div class="detailed-article__text">{{propArticle.text}}</div>
