@@ -11,7 +11,7 @@ export default {
     return {
       dataMass: [
         {
-          img: '../../../src/assets/images/equipment/1.jpg',
+          img: require('../../../src/assets/images/equipment/1.jpg'),
           title: 'Сургитрон',
           date: '19.05.2022',
           textList: [
@@ -32,7 +32,7 @@ export default {
           ]
         },
         {
-          img: '../../../src/assets/images/equipment/2.jpg',
+          img: require('../../../src/assets/images/equipment/2.jpg'),
           title: 'Стерилизация в клинике Dr Beauty',
           date: '19.05.2022',
           textList: [
